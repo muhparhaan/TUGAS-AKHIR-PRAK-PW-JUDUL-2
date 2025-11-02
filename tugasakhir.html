@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Muhammad Farhan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Muhammad Farhan</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Tentang Saya</a></li>
+                    <li><a href="#projects">Proyek</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="container">
+            <h2>Selamat Datang di Portofolio Saya</h2>
+            <p>Mahasiswa Teknologi Informasi di Universitas Lampung.</p>
+        </section>
+
+        <section id="about" class="container">
+            <h2>Tentang Saya</h2>
+
+            <img src="PAS FOTO.jpg" alt="Foto Profil Muhammad Farhan" class="profile-pic">
+
+            <p>Halo! Saya Muhammad Farhan, seorang mahasiswa dengan konsentrasi Teknologi Informasi. Saya sangat
+                tertarik dengan pengembangan web dan keamanan siber. Website ini adalah salah satu langkah saya untuk
+                mempraktikkan apa yang telah saya pelajari.</p>
+
+            <ul class="bio-data">
+                <li><strong>NPM:</strong> 2315061083</li>
+                <li><strong>Universitas:</strong> Universitas Lampung</li>
+                <li><strong>Program Studi:</strong> Teknologi Informasi</li>
+                <li><strong>Konsentrasi:</strong> Teknologi Informasi</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="container">
+            <h2>Proyek Saya</h2>
+            <div class="projects-grid">
+                <article class="card">
+                    <h3>Proyek 1: IoT Sensor Suhu dan kelembaban</h3>
+                    <p>Membuat dashboard web untuk memonitoring data sensor IoT (misalnya suhu dan kelembaban) secara
+                        real-time.</p>
+                    <a href="https://github.com/muhparhaan" class="btn">Lihat di GitHub</a>
+                </article>
+
+                <article class="card">
+                    <h3>Proyek 2: Aplikasi Keuangan Java</h3>
+                    <p>Aplikasi desktop sederhana untuk manajemen transaksi keuangan pribadi, dibangun menggunakan Java
+                        dan JavaFX.</p>
+                    <a href="https://github.com/muhparhaan" class="btn">Lihat di GitHub</a>
+                </article>
+
+                <article class="card">
+                    <h3>Proyek 3: Analisis Jaringan</h3>
+                    <p>Studi kasus dan implementasi konsep jaringan seperti VLAN, routing, dan monitoring keamanan
+                        menggunakan tools seperti Wazuh.</p>
+                    <a href="https://github.com/muhparhaan" class="btn">Lihat Laporan</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="container">
+            <h2>Kontak Saya</h2>
+            <p>Anda bisa menghubungi saya melalui form di bawah ini.</p>
+
+            <div class="form-container">
+                <form action="#" method="POST">
+                    <label for="nama">Nama Lengkap <span class="required">*</span></label>
+                    <input type="text" id="nama" name="nama" required>
+
+                    <label for="email">Email <span class="required">*</span></label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="pesan">Pesan</label>
+                    <textarea id="pesan" name="pesan" rows="4" placeholder="Tuliskan pesan Anda..."></textarea>
+
+                    <button type="submit" class="btn">Kirim Data</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Muhammad Farhan. Dibuat sebagai Tugas Akhir Praktikum Pemrograman Web.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
